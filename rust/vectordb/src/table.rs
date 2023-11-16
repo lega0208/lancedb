@@ -325,6 +325,11 @@ impl Table {
         Ok(())
     }
 
+    /// Return the dataset
+    pub fn dataset(&self) -> Arc<Dataset> {
+        self.dataset.clone()
+    }
+
     /// Delete rows from the table
     pub async fn delete(&mut self, predicate: &str) -> Result<()> {
         let mut dataset = self.dataset.as_ref().clone();
