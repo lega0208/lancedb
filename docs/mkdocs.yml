@@ -1,4 +1,5 @@
 site_name: LanceDB Docs
+site_url: https://lancedb.github.io/lancedb/
 repo_url: https://github.com/lancedb/lancedb
 edit_uri: https://github.com/lancedb/lancedb/tree/main/docs/src
 repo_name: lancedb/lancedb
@@ -97,6 +98,7 @@ nav:
     - YouTube Transcript Search: notebooks/youtube_transcript_search.ipynb
     - Documentation QA Bot using LangChain: notebooks/code_qa_bot.ipynb
     - Multimodal search using CLIP: notebooks/multimodal_search.ipynb
+    - Example - Calculate CLIP Embeddings with Roboflow Inference: examples/image_embeddings_roboflow.md
     - Serverless QA Bot with S3 and Lambda: examples/serverless_lancedb_with_s3_and_lambda.md
     - Serverless QA Bot with Modal: examples/serverless_qa_bot_with_modal_and_langchain.md
   - 🌐 Javascript examples:
@@ -144,7 +146,8 @@ nav:
   - Serverless Chatbot from any website: examples/serverless_website_chatbot.md
   - TransformersJS Embedding Search: examples/transformerjs_embedding_search_nodejs.md
 - API references:
-  - Python API: python/python.md
+  - OSS Python API: python/python.md
+  - SaaS Python API: python/saas-python.md
   - Javascript API: javascript/modules.md
 - LanceDB Cloud↗: https://noteforms.com/forms/lancedb-mailing-list-cloud-kty1o5?notionforms=1&utm_source=notionforms
 

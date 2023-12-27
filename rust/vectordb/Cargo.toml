@@ -1,6 +1,6 @@
 [package]
 name = "vectordb"
-version = "0.3.7"
+version = "0.4.1"
 edition = "2021"
 description = "LanceDB: A serverless, low-latency vector database for AI applications"
 license = "Apache-2.0"
@@ -21,6 +21,7 @@ object_store = { workspace = true }
 snafu = { workspace = true }
 half = { workspace = true }
 lance = { workspace = true }
+lance-index = { workspace = true }
 lance-linalg = { workspace = true }
 lance-testing = { workspace = true }
 tokio = { version = "1.23", features = ["rt-multi-thread"] }
